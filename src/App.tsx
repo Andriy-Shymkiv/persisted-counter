@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 
+// make counter state persistent during toggling
+// without using context, lifting state up, or using a global state management library
+
 function App() {
   const [isAbove, setIsAbove] = useState(false);
 
